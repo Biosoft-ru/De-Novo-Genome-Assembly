@@ -1,0 +1,27 @@
+files:
+- name: inputs.json
+  transformer: ru.biosoft.access.support.FileTextTransformer
+- name: options.json
+  transformer: ru.biosoft.access.support.FileTextTransformer
+- name: Results
+  properties:
+    analysis.class: biouml.plugins.wdl.RunWDLAnalysis$Parameters
+    analysis.inputStyle: params
+    analysis.outFolder: data/Collaboration/Sequencer examples/De Novo Genome Assembly/Results
+    analysisName: Run WDL
+    analysis.includes: '["biouml.plugins.wdl.RunWDLAnalysis$IncludePath@62a65b86"]'
+    analysisParametersDescription: '<div><b>Parameters:</b><br><ul type="circle"><li><b>wdlScriptPath</b>:
+      <a href="de:data%2FCollaboration%2FSequencer+examples%2FDe+Novo+Genome+Assembly%2FDe_novo_genome_assembly_workflow.wdl"
+      title="data/Collaboration/Sequencer examples/De Novo Genome Assembly/De_novo_genome_assembly_workflow.wdl">De_novo_genome_assembly_workflow.wdl</a></li><li><b>Includes</b><ul><li><b>[0]</b><ul><li><b>path</b>:
+      <a href="de:data%2FCollaboration%2FSequencer+examples%2FDe+Novo+Genome+Assembly"
+      title="data/Collaboration/Sequencer examples/De Novo Genome Assembly">De Novo
+      Genome Assembly</a></li><li><b>recursive</b>: true</li></ul></li></ul></li><li><b>inputStyle</b>
+      (expert): params</li><li><b>bioumlParams</b><ul><li><b>de_novo_assembly.reads</b><ul><li><b>[0]</b><ul><li><b>de_novo_assembly.reads</b>:
+      <a href="de:data%2FCollaboration%2FSequencer+examples%2FDe+Novo+Genome+Assembly%2FInput%2FH_pylori_j99.bam"
+      title="data/Collaboration/Sequencer examples/De Novo Genome Assembly/Input/H_pylori_j99.bam">H_pylori_j99.bam</a></li></ul></li></ul></li></ul></li><li><b>Workflow
+      options</b> (expert): (none)</li><li><b>outFolder</b>: <a href="de:data%2FCollaboration%2FSequencer+examples%2FDe+Novo+Genome+Assembly%2FResults"
+      title="data/Collaboration/Sequencer examples/De Novo Genome Assembly/Results">Results</a></li></ul></div>'
+    analysis.bioumlParams: '[{"name":"de_novo_assembly.reads","type":"[Lcom.developmentontheedge.beans.DynamicPropertySet;","value":"[\"[{\\\"name\\\":\\\"de_novo_assembly.reads\\\",\\\"type\\\":\\\"ru.biosoft.access.core.DataElementPath\\\",\\\"value\\\":\\\"data/Collaboration/Sequencer
+      examples/De Novo Genome Assembly/Input/H_pylori_j99.bam\\\",\\\"bound\\\":false,\\\"constrained\\\":false,\\\"displayName\\\":\\\"de_novo_assembly.reads\\\",\\\"expert\\\":false,\\\"hidden\\\":false,\\\"preffered\\\":false,\\\"propertyEditorClass\\\":null,\\\"shortDescription\\\":\\\"de_novo_assembly.reads\\\",\\\"attributes\\\":{\\\"isInput\\\":\\\"true\\\",\\\"can-be-null\\\":\\\"false\\\"}}]\"]","bound":false,"constrained":false,"displayName":"de_novo_assembly.reads","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"de_novo_assembly.reads","attributes":{"wdl-type":"array","can-be-null":"false","item-prototype":"DPS(com.developmentontheedge.beans.DynamicPropertySetSupport):\n  1.
+      de_novo_assembly.reads (class ru.biosoft.access.core.DataElementPath) - null"}}]'
+    analysis.wdlScriptPath: data/Collaboration/Sequencer examples/De Novo Genome Assembly/De_novo_genome_assembly_workflow.wdl

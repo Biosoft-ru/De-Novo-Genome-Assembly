@@ -1,0 +1,3 @@
+files:
+- name: de_novo_assembly.md
+  transformer: ru.biosoft.access.support.FileTextTransformer

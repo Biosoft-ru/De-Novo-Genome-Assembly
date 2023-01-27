@@ -1,0 +1,3 @@
+files:
+- name: polished_assembly.report.json
+  transformer: ru.biosoft.access.support.FileTextTransformer
